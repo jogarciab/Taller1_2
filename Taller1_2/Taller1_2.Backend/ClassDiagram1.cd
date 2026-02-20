@@ -7,11 +7,18 @@
       <FileName>GeometricFigure.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Taller1_2.Backend.Circle">
-    <Position X="9" Y="1.25" Width="1.5" />
+  <Class Name="Taller1_2.Backend.Circle" Collapsed="true">
+    <Position X="9" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAACAAEAAAAQA=</HashCode>
       <FileName>Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1_2.Backend.Square" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
+      <FileName>Square.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
