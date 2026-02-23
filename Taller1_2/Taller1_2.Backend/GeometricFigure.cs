@@ -2,18 +2,18 @@
 
 public abstract class GeometricFigure
 {
-    public string Name
+    public string Name { get; set; }
+    public GeometricFigure(string name)
     {
-        get;
-        set;
+        Name = name;
     }
 
-    public abstract float GetArea();
+    public abstract double GetArea();
 
-    public abstract float GetPerimeter();
+    public abstract double GetPerimeter();
 
     override public string ToString()
     {
-        return $"{Name} => Area.....: {GetArea()}\t Perimeter: {GetPerimeter()}";
+        return $"{Name, -15} => Area.....: {GetArea(), 15:N5}\tPerimeter: {GetPerimeter(), 15:N5}";
     }
 }

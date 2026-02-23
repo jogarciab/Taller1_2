@@ -2,18 +2,18 @@
 
 public class Parallelogram : Rectangle
 {
-    private float _h;
-    public Parallelogram(string v, double v1, double v2, float h) : base(v, v1, h)
+    private double _h;
+    public Parallelogram(string name, double a, double b, double h) : base(name, a, b)
     {
         H = h;
     }
-    public float H
+    public double H
     {
         get => _h;
         set => _h = ValidateH(value);
     }
 
-    private float ValidateH(float h)
+    private double ValidateH(double h)
     {
         if (h < 0)
         {
@@ -21,6 +21,6 @@ public class Parallelogram : Rectangle
         }
         return h;
     }
-    public override float GetArea() => B * H;
-    public override float GetPerimeter() => 2 * (A + B);
+    public override double GetArea() => (B * H);
+    public override double GetPerimeter() => (2 * (A + B));
 }

@@ -4,24 +4,18 @@ namespace Taller1_2.Backend;
 
 public class Square : GeometricFigure
 {
-    private float _a;
+    private double _a;
 
-    public Square(string v, float a) 
+    public Square(string name, double a) : base(name)
     {
         A = a;
    }
-
-    public Square(float a)
-    {
-        A = a;
-    }
-
-    public float A
+    public double A
     {
         get => _a;
         set => _a = ValidateA(value);
     }
-private float ValidateA(float a)
+private double ValidateA(double a)
     {
         if (a <= 0)
         {
@@ -30,6 +24,6 @@ private float ValidateA(float a)
         return a;
     }
 
-    public override float GetArea() => (float) Math.Pow(A, 2);
-    public override float GetPerimeter() => 4 * A;
+    public override double GetArea() => Math.Pow(A, 2);
+    public override double GetPerimeter() => 4 * A;
 }

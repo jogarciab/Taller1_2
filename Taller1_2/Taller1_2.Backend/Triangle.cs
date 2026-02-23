@@ -2,28 +2,28 @@
 
 public class Triangle : Rectangle
 {
-    private float _c;
-    private float _h;
+    private double _c;
+    private double _h;
 
-    public Triangle(string v, double v1, double v2, float c, float h) : base(v, c, h)
+    public Triangle(string name, double a, double b, double c, double h) : base(name, a, b)
     {
         C = c;
         H = h;
     }
 
-    public float C
+    public double C
     {
         get => _c;
         set => _c = ValidateC(value);
     }
 
-    public float H
+    public double H
     {
         get => _h;
         set => _h = ValidateH(value);
     }
 
-    private float ValidateC(float c)
+    private double ValidateC(double c)
     {
         if (c < 0)
         {
@@ -32,7 +32,7 @@ public class Triangle : Rectangle
         return c;
     }
 
-    private float ValidateH(float h)
+    private double ValidateH(double h)
     {
         if (h < 0)
         {
@@ -40,7 +40,7 @@ public class Triangle : Rectangle
         }
         return h;
     }
-    public override float GetArea() => (B * H) / 2;
-    public override float GetPerimeter() => A + B + C;
+    public override double GetArea() => ((B * H) / 2);
+    public override double GetPerimeter() => (A + B + C);
 }
 

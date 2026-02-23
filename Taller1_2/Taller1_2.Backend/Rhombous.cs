@@ -2,28 +2,28 @@
 
 public class Rhombous : Square
 {
-    private float _d1;
-    private float _d2;
+    private double _d1;
+    private double _d2;
 
-    public Rhombous(string v, float d1, float d2, float a) : base(a)
+    public Rhombous(string name, double d1, double d2, double a) : base(name,a)
     {
         D1 = d1;
         D2 = d2;
     }
 
-    public float D1
+    public double D1
     {
         get => _d1;
         set => _d1 = ValidateD1(value);
     }
 
-    public float D2
+    public double D2
     {
         get => _d2;
         set => _d2 = ValidateD2(value);
     }
 
-    private float ValidateD1(float d1)
+    private double ValidateD1(double d1)
     {
         if (d1 < 0)
         {
@@ -32,16 +32,15 @@ public class Rhombous : Square
         return d1;
     }
 
-    private float ValidateD2(float d2)
+    private double ValidateD2(double d2)
     {
         if (d2 < 0)
         {
             throw new ArgumentException("Side 2 must be greater than zero.");
         }
-
         return d2;
     }
 
-    public override float GetArea() => (D1 * D2) / 2;
-    public override float GetPerimeter() => 4 * A; 
+    public override double GetArea() => ((D1 * D2)/2);
+    public override double GetPerimeter() => (4 * A); 
 }
