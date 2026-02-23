@@ -22,5 +22,5 @@ public class Parallelogram : Rectangle
         return h;
     }
     public override double GetArea() => (B * H);
-    public override double GetPerimeter() => (2 * (A + B));
+    public override double GetPerimeter() => base.GetPerimeter();
 }

@@ -5,7 +5,7 @@ public class Rhombous : Square
     private double _d1;
     private double _d2;
 
-    public Rhombous(string name, double d1, double d2, double a) : base(name,a)
+    public Rhombous(string name, double a, double d1, double d2) : base(name,a)
     {
         D1 = d1;
         D2 = d2;
@@ -41,6 +41,6 @@ public class Rhombous : Square
         return d2;
     }
 
-    public override double GetArea() => ((D1 * D2)/2);
-    public override double GetPerimeter() => (4 * A); 
+    public override double GetArea() => (D1 * D2)/2;
+    public override double GetPerimeter() => base.GetPerimeter(); 
 }
