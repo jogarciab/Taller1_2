@@ -6,6 +6,11 @@ public class Square : GeometricFigure
 {
     private float _a;
 
+    public Square(string v, float a) 
+    {
+        A = a;
+   }
+
     public Square(float a)
     {
         A = a;

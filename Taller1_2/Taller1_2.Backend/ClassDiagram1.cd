@@ -1,31 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Taller1_2.Backend.GeometricFigure" Collapsed="true">
-    <Position X="5.75" Y="1.25" Width="1.5" />
+  <Class Name="Taller1_2.Backend.GeometricFigure">
+    <Position X="5.75" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAAAAEAAAAAEAAAAAA=</HashCode>
       <FileName>GeometricFigure.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Taller1_2.Backend.Circle" Collapsed="true">
-    <Position X="8.25" Y="0.75" Width="1.5" />
+  <Class Name="Taller1_2.Backend.Circle">
+    <Position X="8" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAACAAEAAAAQA=</HashCode>
       <FileName>Circle.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Taller1_2.Backend.Square" Collapsed="true">
-    <Position X="5.75" Y="2.25" Width="1.5" />
+  <Class Name="Taller1_2.Backend.Square">
+    <Position X="5.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
       <FileName>Square.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Taller1_2.Backend.Rhombous" Collapsed="true">
-    <Position X="8.25" Y="2.25" Width="1.5" />
+  <Class Name="Taller1_2.Backend.Rhombous">
+    <Position X="8" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgAAAAAAAAAAAAAAAAAAQAAAAAAEIAAkAEAAAAAA=</HashCode>
       <FileName>Rhombous.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1_2.Backend.Kite">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
+      <FileName>Kite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1_2.Backend.Rectangle">
+    <Position X="3.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1_2.Backend.Parallelogram">
+    <Position X="1.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAGEAAAAA=</HashCode>
+      <FileName>Parallelogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller1_2.Backend.Triangle">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAmEABAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

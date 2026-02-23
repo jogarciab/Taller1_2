@@ -5,7 +5,7 @@ public class Rhombous : Square
     private float _d1;
     private float _d2;
 
-    public Rhombous(float a, float d1, float d2) : base(a)
+    public Rhombous(string v, float d1, float d2, float a) : base(a)
     {
         D1 = d1;
         D2 = d2;
