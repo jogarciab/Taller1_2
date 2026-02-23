@@ -56,5 +56,12 @@
       <FileName>Triangle.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Taller1_2.Backend.Trapeze">
+    <Position X="1.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAFAAAAAA=</HashCode>
+      <FileName>Trapeze.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
