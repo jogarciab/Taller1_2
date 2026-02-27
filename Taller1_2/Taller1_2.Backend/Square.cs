@@ -6,9 +6,10 @@ public class Square : GeometricFigure
 {
     private double _a;
 
-    public Square(string name, double a) : base(name)
+    public Square(string name, double a) 
     {
         A = a;
+        Name = name;
    }
     public double A
     {

@@ -2,11 +2,6 @@
 
 public abstract class GeometricFigure
 {
-    protected GeometricFigure(string name)
-    {
-        Name = name;
-    }
-
     public string Name
     {
         get;

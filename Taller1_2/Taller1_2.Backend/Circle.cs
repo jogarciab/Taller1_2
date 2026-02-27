@@ -4,9 +4,10 @@ public class Circle : GeometricFigure
 {
     private double _r;
 
-    public Circle(string name, double r) : base(name)
+    public Circle(string name, double r)
     {
         R = r;
+        Name = name;
     }
 
     public double R 
